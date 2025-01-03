@@ -1,6 +1,6 @@
-##Steps to Execute the Project
+# Steps to Execute the Project
 
-##1. Downgrade Python Version and Install Necessary Libraries
+## 1. Downgrade Python Version and Install Necessary Libraries
 
 
 
@@ -48,7 +48,7 @@ pip install pandas flask joblib numpy flask-cors playsound flask-mail
 ```
 
 
-##2. Change Directory to Server
+## 2. Change Directory to Server
 
 
 
@@ -60,7 +60,7 @@ cd server
 ```
 
 
-##3. Run the Flask App
+## 3. Run the Flask App
 
 
 
@@ -73,7 +73,7 @@ python app.py
 
 
 
-##4. Run the Alert System
+## 4. Run the Alert System
 
 
 
@@ -87,7 +87,7 @@ python alert.py
 ```
 
 
-##5. Start the Web App
+## 5. Start the Web App
 
 
 
@@ -101,7 +101,7 @@ npm run dev
 
 ```
 
-##6. Test the Attack Prediction
+## 6. Test the Attack Prediction
 
 
 
@@ -109,7 +109,7 @@ On the web app, click on the "Attacks" section to send attacks. To check if the 
 
 
 
-##7. Update Mail IDs (Optional)
+## 7. Update Mail IDs (Optional)
 
 
 
