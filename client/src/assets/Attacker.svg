@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 340 519.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0053af;
+      }
+
+      .cls-3 {
+        fill: #c22727;
+      }
+
+      .cls-4 {
+        fill: #fc5961;
+      }
+
+      .cls-5 {
+        fill: #980001;
+      }
+
+      .cls-6 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-7 {
+        fill: #333;
+      }
+
+      .cls-8 {
+        fill: #990001;
+      }
+
+      .cls-9 {
+        fill: #fd5961;
+      }
+
+      .cls-10 {
+        fill: #06204f;
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12 {
+        fill: #062a77;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="170" y1="519.5" x2="170" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#062a77"/>
+      <stop offset=".22" stop-color="#033b8e"/>
+      <stop offset=".46" stop-color="#0148a0"/>
+      <stop offset=".71" stop-color="#0050ab"/>
+      <stop offset="1" stop-color="#0053af"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="1"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".7"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <path class="cls-11" d="m20,20c.17,166.5.33,333,.5,499.5h299c.17-166.5.33-333,.5-499.5H20Z"/>
+    <rect class="cls-12" x="40" width="260" height="20"/>
+    <polygon class="cls-10" points="20 20 0 40 0 500 20.5 519.5 20 20"/>
+    <polygon class="cls-10" points="320 20 340 40 340 500 319.5 519.5 320 20"/>
+    <rect class="cls-1" x="40" y="40" width="260" height="340"/>
+    <g class="cls-6">
+      <polygon points="205.47 438.82 213.9 430.39 213.57 394.44 205.03 411.81 205.03 421.07 196.15 429.94 194.64 432.97 205.03 438.82 205.47 438.82"/>
+      <path class="cls-1" d="m206.5,409.5v12l-12,12-1.14-.53,11.66-11.9v-9.26c.49-.77.98-1.54,1.47-2.31Z"/>
+      <polygon points="134.03 438.38 125.6 429.94 125.93 394 134.47 411.37 134.47 420.62 143.35 429.5 144.86 432.53 134.47 438.38 134.03 438.38"/>
+      <path class="cls-1" d="m133.46,409.27c0,4,0,8,0,12,4,4,8,8,12,12l1.14-.53-11.66-11.9v-9.26c-.49-.77-.98-1.54-1.47-2.31Z"/>
+      <polygon class="cls-3" points="134.47 438.38 144.86 432.53 152.22 447.25 187.72 447.25 195.08 432.53 205.03 438.38 205.47 465 196.6 473.88 196.6 482.75 187.72 500.5 152.22 500.5 143.35 482.75 143.35 473.88 134.47 465 134.47 438.38"/>
+      <polygon class="cls-8" points="160.65 447.25 146.97 490 152.22 500.5 187.72 500.5 192.97 490 180 447.25 160.65 447.25"/>
+      <polygon class="cls-7" points="152.22 447.25 143.35 429.5 152.22 420.65 187.72 420.62 196.6 429.5 187.72 447.25 152.22 447.25"/>
+      <path class="cls-5" d="m152.22,447.25l-8.88,26.62s-8.9-8.38-8.88-8.88,0-26.62,0-26.62l10.39-5.85,7.36,14.72Z"/>
+      <polygon class="cls-8" points="196.6 473.88 187.72 447.25 194.64 432.97 205.47 438.82 205.47 465 196.6 473.88"/>
+      <path class="cls-1" d="m142.9,451.24v11.54h17.75v-5.33c-5.92-2.07-11.83-4.14-17.75-6.21Z"/>
+      <path class="cls-1" d="m196.15,451.24v11.54h-17.75v-5.33c5.92-2.07,11.83-4.14,17.75-6.21Z"/>
+      <polygon points="151.78 483.19 187.28 483.19 178.4 493.84 160.65 493.84 151.78 483.19"/>
+      <polygon class="cls-1" points="156.22 488.52 160.65 486.74 171.3 488.52 178.4 486.74 182.84 488.52 187.28 483.19 151.78 483.19 156.22 488.52"/>
+    </g>
+    <polygon class="cls-12" points="20 20 40 40 40 380 169.97 519.5 300 380 300 40 320 20 319.5 519.5 20.5 519.5 20 20"/>
+    <polygon class="cls-9" points="144.86 432.53 134.03 438.38 134.47 465 144.86 432.53"/>
+    <polygon class="cls-4" points="194.64 432.97 205.47 438.82 205.47 465 194.64 432.97"/>
+    <polygon points="143.35 429.5 152.22 447.25 187.72 447.25 196.15 429.94 185.5 441.5 155.5 441.5 143.35 429.5"/>
+    <rect class="cls-1" x="40.5" y="488.5" width="5" height="31"/>
+    <rect class="cls-8" x="54.5" y="488.5" width="5" height="31"/>
+    <rect class="cls-1" x="71.5" y="488.5" width="5" height="31"/>
+    <rect class="cls-1" x="295.5" y="488.5" width="5" height="31" transform="translate(596 1008) rotate(-180)"/>
+    <rect class="cls-8" x="281.5" y="488.5" width="5" height="31" transform="translate(568 1008) rotate(-180)"/>
+    <rect class="cls-1" x="264.5" y="488.5" width="5" height="31" transform="translate(534 1008) rotate(-180)"/>
+    <rect class="cls-2" x="47.5" y="7.5" width="247" height="5"/>
+    <polygon class="cls-12" points="40 40 60 60 280 60 300 40 40 40"/>
+    <polygon class="cls-2" points="60 360 40 380 40 40 60 60 60 360"/>
+    <polygon class="cls-12" points="300 380 280 360 60 360 40 380 300 380"/>
+    <polygon class="cls-2" points="300 40 280 60 280 360 300 380 300 40"/>
+    <circle class="cls-1" cx="310" cy="154.5" r="3"/>
+    <circle class="cls-3" cx="310.5" cy="168.5" r="3"/>
+    <circle class="cls-1" cx="310.5" cy="182.5" r="3"/>
+  </g>
+</svg>

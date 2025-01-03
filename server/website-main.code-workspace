@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "website-main",
+			"path": ".."
+		},
+		{
+			"name": "mlModels",
+			"path": "../../../website_NIDS/mlModels"
+		}
+	],
+	"settings": {}
+}

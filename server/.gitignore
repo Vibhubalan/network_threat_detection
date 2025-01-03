@@ -1,0 +1,74 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+egg-info/
+.installed.cfg
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+flask_env/
+
+# IDE or editor specific files
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Environment variable files
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+*.log
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Test and coverage reports
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test-results/
+.pytest_cache/
+.coverage
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+mlModels/
+
+best_random_forest_model.pkl
+best_xgboost_model.pkl
+
+ocsvm_80_pipeline.joblib
+ovr_model_onehot_wo_gs.pkl
+pipeline_label_encoded.pkl
+
+preprocessor.pkl
+sound.mp3

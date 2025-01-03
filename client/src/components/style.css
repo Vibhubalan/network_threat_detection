@@ -1,0 +1,361 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  gap: 20px;
+  transform: rotateY(0deg) rotateX(0deg);
+}
+
+.container1 .text1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transition: 2.5s ease-in-out;
+  transition-delay: calc(0.25s * var(--j));
+  border-radius: 8px;
+}
+
+.container1:hover .text1 {
+  transform: rotateX(-360deg);
+}
+
+.container1:hover .text1:last-child {
+  transform: rotateX(630deg);
+}
+
+.container1:hover .text1:last-child span {
+  background: #C22727;
+  border-radius: 8px;
+}
+
+.container1:hover .text1:last-child::before {
+  background: #C22727;
+  border-radius: 8px;
+}
+
+.container1 .text1::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #06204F;
+  transform-origin: left;
+  transform: rotateY(90deg) translateX(-50px);
+  border-radius: 8px;
+}
+
+.container1 .text1:last-child::before {
+  background: #29c040;
+  border-radius: 8px;
+}
+
+.container1 .text1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#062A77, #0053AF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  transform-style: preserve-3d;
+  transform: rotateX(calc(90deg * var(--i))) translateZ(50px);
+  border-radius: 8px;
+  /* Add drop shadow to the text only */
+  color: #ffffff;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2); /* Drop shadow only on text */
+}
+
+.container1 .text1:last-child span {
+  background: linear-gradient(#29c040, #32ed4e);
+  border-radius: 8px;
+  /* Same shadow effect on last-child text */
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2); /* Drop shadow only on text */
+}
+
+.bent-button {
+  position: relative;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0px 8px 0px #b0b0b0, 0px 10px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.bent-button:active {
+  /* Simulates the push-in effect by reducing the shadow */
+  box-shadow: -3px 4px 0px #b0b0b0, 0px 6px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(4px); /* Moves the button down slightly to create the push effect */
+}
+
+
+
+/* From Uiverse.io by rraushan1205 */ 
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 1.2em;
+  height: 3.3em;
+}
+
+/* Hide default HTML checkbox */
+.switch .chk {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(230, 0, 0);
+  transition: .4s;
+  border-radius: 5px;
+  transform: rotateX(20deg) rotateZ(-6deg) rotateY(15deg);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: .5em;
+  width: 2.4em;
+  border-radius: 5px;
+  left: -0.6em;
+  top: 0.2em;
+  background-color: rgb(68, 66, 66);
+  box-shadow: 0 6px 7px rgba(0,0,0,0.3);
+  transition: .4s;
+}
+
+.slider:before, .slider:after {
+  content: "";
+  display: block;
+}
+
+.slider:after {
+  background: linear-gradient(transparent 50%, rgba(255, 255, 255, 0.15) 0) 0 50% / 50% 100%,
+        repeating-linear-gradient(90deg,rgb(78, 78, 78) 0,rgb(141, 135, 135),rgb(97, 96, 96) 20%,rgb(97, 95, 95) 20%,rgb(99, 99, 99) 40%) 0 50% / 50% 100%,
+        radial-gradient(circle at 50% 50%,rgb(95, 94, 94) 25%, transparent 26%);
+  background-repeat: no-repeat;
+  border: 0.25em solid transparent;
+  border-left: 0.4em solid #464646;
+  border-right: 0 solid transparent;
+  transition: border-left-color 0.1s 0.3s ease-out, transform 0.3s ease-out;
+  transform: translateX(-22.5%) rotate(90deg);
+  transform-origin: 25% 50%;
+  position: relative;
+  top: 0.5em;
+  left: 0.55em;
+  width: 2em;
+  height: 1em;
+  box-sizing: border-box;
+}
+
+.chk:checked + .slider {
+  background-color: limegreen;
+}
+
+.chk:focus + .slider {
+  box-shadow: 0 0 1px limegreen;
+}
+
+.chk:checked + .slider:before {
+  transform: translateY(2.3em);
+}
+
+.chk:checked + .slider:after {
+  transform: rotateZ(90deg) rotateY(180deg) translateY(0.45em) translateX(-1.4em);
+}
+
+.neon-glow {
+  color: #ffffff;
+  text-align: center;
+  /* Adding a persistent neon glow effect */
+  text-shadow: 
+    0 0 5px rgba(255, 255, 0, 0.8), /* Soft yellow glow */
+    0 0 10px rgba(255, 255, 0, 1),  /* Stronger yellow glow */
+    0 0 20px rgba(255, 255, 255, 0.8), /* White glow for a neon effect */
+    0 0 30px rgba(255, 255, 0, 1),  /* Intense yellow outer glow */
+    0 0 40px rgba(255, 255, 0, 1);  /* More intense yellow glow */
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.moving-box {
+  width: 100px; /* Box width */
+  height: 100px; /* Box height */
+  position: absolute;
+  top: 42%; /* Centers the box vertically */
+  left: 100px; /* Start position with 100px space from the left */
+  animation: move-horizontal 4s linear infinite; /* 4-second animation, linear speed, infinite repeat */
+}
+
+@keyframes move-horizontal {
+  0% {
+    left: 100px; /* Starts at 100px from the left */
+  }
+  100% {
+    left: calc(100vw - 200px); /* Ends at 100px from the right (subtracting 100px for the end space and 100px for the width of the box) */
+  }
+}
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: #C22727;
+}
+
+.button:hover {
+  width: 140px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color:#ffffff;
+  align-items: center;
+}
+
+.button:hover .svgIcon {
+  /* width: 20px; */
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+
+.button::before {
+  position: absolute;
+  bottom: -20px;
+  content: "STOP";
+  color: #C22727;
+  /* transition-duration: .3s; */
+  font-size: 0px;
+}
+
+.button:hover::before {
+  font-size: 20px;
+  opacity: 1;
+  bottom: unset;
+  /* transform: translateY(-30px); */
+  transition-duration: 0.3s;
+}
+
+.slide-in{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;;
+  transform-origin: bottom;
+}
+
+.slide-out{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;;
+  transform-origin: top;
+}
+
+
+
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border-radius: 14px;
+  z-index: 1111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  ;
+}
+
+.bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 190px;
+  height: 240px;
+  z-index: 2;
+  /* background: rgba(255, 255, 255, .95);s */
+  /* backdrop-filter: blur(10px); */
+  border-radius: 10px;
+  overflow: hidden;
+  outline: 2px solid white;
+}
+
+.blob {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* background-color: #ff0000; */
+  opacity: 1;
+  filter: blur(12px);
+  animation: blob-bounce 5s infinite ease;
+}
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+}
