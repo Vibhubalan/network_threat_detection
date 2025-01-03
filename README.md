@@ -90,5 +90,6 @@ Contact
 
 
 
-For any queries, feel free to contact me at: mvibhubalan@gmail.com
+For any queries, feel free to contact me at: mvibhubalan@gmail.com .
+
 (if you need the report for this project charges may apply, please contact the above mail regarding it)
