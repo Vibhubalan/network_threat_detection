@@ -4,13 +4,8 @@
 
 
 
-To run the project, downgrade your Python version to 3.10.11 by creating a new virtual environment (venv). After setting up the environment, install the following necessary libraries:
+To run the project, downgrade your Python version to 3.10.11 by creating a new virtual environment (venv). After setting up the environment, install the necessary libraries.
 
-
-
-
-
-Install the Libraries:
 
 
 
