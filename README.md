@@ -8,35 +8,9 @@ To run the project, downgrade your Python version to 3.10.11 by creating a new v
 
 
 
-Required Libraries:
 
 
-```
-import pandas as pd
-
-from flask import Flask, request, jsonify
-
-import joblib
-
-import numpy as np.
-
-from flask_cors import CORS
-
-from playsound import playsound
-
-import threading
-
-import os
-
-from flask import Flask, jsonify
-
-from flask_mail import Mail, Message
-
-from datetime import datetime
-
-```
-
-Install the Libraries
+Install the Libraries:
 
 
 
